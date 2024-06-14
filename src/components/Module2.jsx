@@ -59,7 +59,7 @@ function Module2() {
             <div id="module2Right">
               <motion.div
                 id="module2Right1"
-                initial={{ opacity: 0, x: 700 }}
+                initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
                   duration: 1,
@@ -80,7 +80,7 @@ function Module2() {
               </motion.div>
               <motion.div
                 id="module2Right2"
-                initial={{ opacity: 0, x: 700 }}
+                initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
                   duration: 1,
@@ -106,7 +106,7 @@ function Module2() {
               </motion.div>
               <motion.div
                 id="module2Right3"
-                initial={{ opacity: 0, x: 700 }}
+                initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
                   duration: 1,

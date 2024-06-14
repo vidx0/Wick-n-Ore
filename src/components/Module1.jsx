@@ -2,11 +2,16 @@ import "./Module1.css";
 import TypedText from "./TypedText";
 import { motion } from "framer-motion";
 import Background from "../assets/background.png";
+
 function Module1() {
+  const handleReserveClick = () => {
+    window.open("https://www.exploretock.com/wicknorekitchentap/", "_blank");
+  };
+
   return (
     <>
-      <img id="module1Background" src={Background}></img>
-
+      <img id="module1Background" src={Background} alt="Background"></img>
+      <div id="gradientOverlay"></div>
       <div id="module1Container">
         <div id="module1Content">
           <motion.div
@@ -44,6 +49,7 @@ function Module1() {
               color: "#000",
             }}
             id="module1Button"
+            onClick={handleReserveClick}
           >
             Reserve Now
           </motion.button>
@@ -52,4 +58,5 @@ function Module1() {
     </>
   );
 }
+
 export default Module1;

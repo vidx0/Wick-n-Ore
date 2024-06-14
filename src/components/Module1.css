@@ -7,7 +7,9 @@
   align-items: center;
   overflow: hidden;
   pointer-events: none;
+  position: relative; /* Ensure relative positioning */
 }
+
 #module1Content {
   width: 1300px;
   height: 600px;
@@ -18,6 +20,7 @@
   z-index: 10;
   margin-top: 70px;
 }
+
 #typed-text {
   font-size: 5rem;
   font-weight: 700;
@@ -30,6 +33,7 @@
   user-select: none;
   z-index: 10;
 }
+
 #module1Text {
   color: rgb(197, 197, 197);
   user-select: none;
@@ -40,6 +44,7 @@
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+
 #module1Button {
   padding: 15px 30px;
   border-radius: 50px;
@@ -61,4 +66,13 @@
   position: absolute;
   z-index: 1;
   user-select: none;
+}
+
+#gradientOverlay {
+  position: absolute;
+  bottom: 250px; /* Move the gradient up by 150px */
+  width: 100%;
+  height: 350px; /* Increase the height to ensure it still covers the bottom part */
+  background: linear-gradient(to bottom, transparent, #212F2F);
+  z-index: 2; /* Positioned above the background image but below the content */
 }

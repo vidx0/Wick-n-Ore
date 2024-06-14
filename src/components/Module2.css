@@ -1,5 +1,5 @@
 #module2Container {
-  background-color: white;
+  background-color: #212F2F;
   width: 100%;
   height: 2314px;
   display: flex;
@@ -20,6 +20,7 @@
 #module2Title {
   font-weight: 600;
   user-select: none;
+  color: white;
 }
 #module2Content {
   width: 100%;
@@ -46,6 +47,7 @@
 #module2Left2 {
   font-size: 2.5rem;
   margin-top: 15px;
+  color: white;
 }
 #module2Left3 {
   width: 50px;
@@ -145,7 +147,7 @@
   margin-bottom: 20px;
 }
 .pg {
-  color: #2e2e2e;
+  color: white;
   font-weight: 400;
   opacity: 90%;
   line-height: 1.875em;

@@ -6,7 +6,7 @@
   left: 0;
   color: white;
   transition: 0.3s;
-
+  background-color: #212F2F;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -79,8 +79,10 @@
 }
 
 @media (max-width: 768px) {
+
   .hamburger {
     display: block;
+    background-color: #212F2F;
   }
   #nav2{
     display: none;

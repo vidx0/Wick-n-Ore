@@ -126,7 +126,7 @@
 .noSelect {
   user-select: none;
 }
-@media (min-width: 1030px) { /* Added media query for responsiveness */
+@media (min-width: 1030px) {
   #module3Container {
     display: flex;
     flex-direction: column;

@@ -91,7 +91,7 @@ function Module2() {
                   past mixed with new additions that we know you will love. We
                   remain passionate about bringing you fabulous food with
                   exceptional service.<br></br>
-                  <br></br>We are excited to share this next chapter with you,
+                  We are excited to share this next chapter with you,
                   Vernon Hills, and we look forward to you visiting us again.
                 </h6>
               </motion.div>

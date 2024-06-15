@@ -2,6 +2,7 @@ import "./Module1.css";
 import TypedText from "./TypedText";
 import { motion } from "framer-motion";
 import Background from "../assets/background.png";
+import React, { useState, useEffect } from 'react';
 
 function Module1() {
   const handleReserveClick = () => {

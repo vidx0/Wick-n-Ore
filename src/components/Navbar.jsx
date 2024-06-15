@@ -1,8 +1,14 @@
 import "./Navbar.css";
 import Logo from "../assets/logo.jpg";
 import { motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
 function Navbar() {
-  let lastScrollTop = 0;
+
+  const[isOpen, setIsOpen] = useState(false);
+  let lastScrollTop = useState(0);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   window.addEventListener("scroll", function () {
     let scrollTop = document.documentElement.scrollTop;
@@ -35,7 +41,10 @@ function Navbar() {
         <div id="nav1">
           <img id="logo" src={Logo}></img>
         </div>
-        <div id="nav2">
+        <div className="hamburger" onClick={toggleMenu}>
+          &#9776;
+        </div>
+        <div id="nav2" className={isOpen ? "open" : ""}>
           <h5>Home</h5>
           <h5>Rewards</h5>
           <h5>Carryout</h5>

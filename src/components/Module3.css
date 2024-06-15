@@ -126,3 +126,14 @@
 .noSelect {
   user-select: none;
 }
+@media (min-width: 768px) { /* Added media query for responsiveness */
+  #module3Images {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .module3ImageContainer {
+    width: 30%;
+  }
+}

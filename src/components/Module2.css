@@ -165,3 +165,54 @@
 .shift {
   transform: translateX(-400px);
 }
+
+  
+  @media (max-width: 1030px) {
+    #module2Container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    #module2Content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #module2Left, #module2Right {
+      width: 100%;
+    }
+    
+    #imageContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      overflow: hidden;
+    }
+    #module2Content {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    #module2Left, #module2Right {
+      width: 25%;
+    }
+  }
+  
+  #module2Content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #module2Left,
+  #module2Right {
+    width: 50%;
+    margin-bottom: 0;
+  }
+

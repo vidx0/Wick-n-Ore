@@ -69,8 +69,8 @@
 }
 
 #gradientOverlay {
-  position: absolute;
-  bottom: 250px; 
+  position: relative;
+  bottom: 100%; 
   width: 100%;
   height: 350px; 
   background: linear-gradient(to bottom, transparent, #212F2F);

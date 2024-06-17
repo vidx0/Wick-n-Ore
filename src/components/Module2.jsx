@@ -17,6 +17,15 @@ function Module2() {
   return (
     <>
       <div id="module2Container">
+      <div id="module2Contain">
+          <motion.h1
+            initial={{ opacity: 0, y: 75 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            id="module2Title"
+          >
+            Welcome
+          </motion.h1>
           <div id="module2Content">
             <motion.div
               id="module2Left"
@@ -125,6 +134,7 @@ function Module2() {
               </motion.div>
             </div>
           </div>
+        </div>
         </div>
     </>
   );

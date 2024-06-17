@@ -7,15 +7,7 @@
   align-items: center;
   flex-direction: column;
   z-index: 20;
-}
-#module2Contain {
-  width: 1200px;
-  height: 2000px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 150px;
+  padding-left: 0px;
 }
 #module2Title {
   font-weight: 600;
@@ -181,6 +173,15 @@
   .pg{
     width:200%;
     
+  }
+  #module2Contain {
+    width: 1200px;
+    height: 2000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
   }
   #module2Left {
     width: 45%;

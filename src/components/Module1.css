@@ -18,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   z-index: 10;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 #typed-text {
@@ -66,6 +66,8 @@
   position: absolute;
   z-index: 1;
   user-select: none;
+  position: absolute;
+  bottom: 0%;
 }
 
 #gradientOverlay {

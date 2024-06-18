@@ -23,13 +23,6 @@ function Module3() {
               60061
             </p>
           </div>
-          <div id="module3Content2">
-            <p>HOME</p>
-            <p>REWARDS</p>
-            <p>CARRYOUT</p>
-            <p>MENU</p>
-            <p>GIFT CARDS</p>
-          </div>
           <div id="module3Content3">
             <div id="number">
               <p className="noSelect">

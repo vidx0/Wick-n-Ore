@@ -6,7 +6,6 @@
   left: 0;
   color: white;
   transition: 0.3s;
-  background-color: #212F2F;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -39,11 +38,11 @@
   transition: 0.3s;
 }
 #nav2 h5:hover {
-  font-size: 1.75rem;
-  font-weight: 600;
-  background-color: #f92f46;
-  border-style:outset;
-  border-radius: 10px;
+    background-color: #212f2f;
+    padding: 10px 40px;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-size: 1.75rem;
 }
 .scrolled-down {
   margin-top: -100px;

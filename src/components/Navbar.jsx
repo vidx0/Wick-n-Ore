@@ -45,11 +45,11 @@ function Navbar() {
           &#9776;
         </div>
         <div id="nav2" className={isOpen ? "open" : ""}>
-          <h5>Home</h5>
           <h5>Rewards</h5>
           <h5>Carryout</h5>
           <h5>Menu</h5>
           <h5>Gift Cards</h5>
+          
         </div>
         <div id="nav3">
           <motion.button

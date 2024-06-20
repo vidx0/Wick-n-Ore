@@ -9,7 +9,7 @@
   background-color: #212F2F;
   align-items: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   z-index: 99;
 }
 #nav1 {
@@ -30,6 +30,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-right: 10px;
 }
 #nav2 h5 {
   font-weight: 300;
@@ -40,6 +41,9 @@
 #nav2 h5:hover {
   font-size: 1.75rem;
   font-weight: 600;
+  background-color: #f92f46;
+  border-style:outset;
+  border-radius: 10px;
 }
 .scrolled-down {
   margin-top: -100px;
@@ -94,13 +98,15 @@
     left:0;
     background-color: #212F2F;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px;
   } 
   #nav2.open {
     display: flex;
   }
   #nav2 h5{
     margin: 15px 0px;
+    padding: 10px 10px;
+    size: 20px;
   }
   
 }

@@ -86,7 +86,7 @@ function Module2() {
                   We established our new name to honor our mining roots. “Wick”
                   referring to the wick of a mining lantern, and “Ore” being the
                   mineral mined.<br></br>
-                  <br></br>We are eager to share our new menu with similar fare
+                  We are eager to share our new menu with similar fare
                   and some new flare. It will include some classics from the
                   past mixed with new additions that we know you will love. We
                   remain passionate about bringing you fabulous food with
@@ -119,8 +119,8 @@ function Module2() {
                   <br></br>
                   <span>Sunday:</span> 11am – 8pm
                   <br></br>
-                  <br></br>
                   <span>Lunch Menu- Mon – Sunday:</span> 11am to 3:45pm
+                  <br></br> 
                 </h6>
               </motion.div>
             </div>

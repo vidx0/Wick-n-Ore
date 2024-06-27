@@ -8,6 +8,7 @@
   transition: 0.3s;
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   z-index: 99;
 }
@@ -15,13 +16,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left:100px;
 }
 
 #nav2 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
   width: 100%;
   height: 100px;
 }
@@ -29,7 +30,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-right: 10px;
+  padding-right: 100px;
 }
 #nav2 h5 {
   font-weight: 300;
@@ -57,10 +58,10 @@
   object-fit: cover;
   border-radius: 25px;
   cursor: pointer;
-  user-select: none;
+  user-select:contain;
   opacity: 95%;
   transition: 0.3s;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 #logo:hover {
   transform: scale(1.1);
@@ -85,7 +86,6 @@
 
   .hamburger {
     display: block;
-    background-color: #212F2F;
   }
   #nav2{
     display: none;
@@ -95,17 +95,43 @@
     position: absolute;
     top: 100px;
     left:0;
-    background-color: #212F2F;
     text-align: center;
     padding: 20px 0px;
   } 
   #nav2.open {
     display: flex;
+    background-color: #212F2F;
   }
   #nav2 h5{
     margin: 15px 0px;
     padding: 10px 10px;
     size: 20px;
+  }
+  #nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 0px;
+  }
+  #nav3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  #navbarContainer {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    transition: 0.3s;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 99;
   }
   
 }

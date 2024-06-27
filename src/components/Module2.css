@@ -199,8 +199,7 @@
     color: #f92f47;
     justify-content: left;
     padding: 30px  100px;
-    top: 0%;
-    position: fixed;
+
   }
   #module2Title {
     font-size: 1.25rem;
@@ -338,13 +337,25 @@
   #module2Left, #module2Right {
     width:100%;
   }
-    
-  #imageContainer {
-    display: flex;
+  #module2Left{
     flex-direction: column;
     align-items: left;
+    justify-content: flex-start;
+    position: sticky;
+  }
+  #module2Left1 {
+    font-size: 1.25rem;
+    color: #f92f47;
+    justify-content: left;
+    padding: 0px  0px;
+
+  }
+  #imageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
     width: 100%;
-    overflow: hidden;
+    
   }
 
   #module2Left4Icon {

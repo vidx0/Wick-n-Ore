@@ -4,7 +4,7 @@
   height: 1080px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
   pointer-events: none;
   position: relative; /* Ensure relative positioning */
@@ -14,7 +14,7 @@
   width: 1300px;
   height: 600px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   z-index: 10;
@@ -22,7 +22,7 @@
 }
 
 #typed-text {
-  font-size: 5rem;
+  font-size: 100px;
   font-weight: 700;
   width: 1500px;
   height: 200px;
@@ -32,6 +32,8 @@
   color: white;
   user-select: none;
   z-index: 10;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 #module1Text {
@@ -43,6 +45,7 @@
   line-height: 1.875em;
   letter-spacing: 0.02em;
   font-weight: 500;
+  padding-bottom: 60px;
 }
 
 #module1Button {
@@ -105,15 +108,13 @@
   
   #gradientOverlay {
     position: absolute;
-    width: 0%;
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+    
     z-index: 2;
   }
-  
-  @media (max-width: 1030px) {
     #typed-text {
       font-size: 2rem;
     }
@@ -126,10 +127,6 @@
       font-size: 1rem;
       padding: 10px 20px;
     }
-  }
-  #typed-text {
-    font-size: 2em;
-  }
   #module1Text{
     font-size: 1rem;
   }

@@ -78,6 +78,12 @@
   background: linear-gradient(to bottom, transparent, #212F2F);
   z-index: 2; 
 }
+@media (max-width: 1500px){
+  #typed-text {
+    max-width: 75%;
+    font-size: 4rem;
+  }
+}
 @media (max-width:  1030px) {
   #module1container{
     display: flex;

@@ -3,7 +3,10 @@ import Logo from "../assets/logo.jpg";
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 function Navbar() {
-
+  const handleReserveClick = () => { window.open("https://www.exploretock.com/wicknorekitchentap/", "_blank"); };
+  const handleGiftClick = () => { window.open("https://app.tableup.com/r/3153/home/giftcards", "_blank"); };
+  const handleCarryClick = () => { window.open("https://order.tbdine.com/pickup/41432/menu", "_blank"); };
+  const handleRewardsClick = () => { window.open("https://tbdine.b2clogin.com/tbdine.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1a_signup_signin&redirect_uri=https%3A%2F%2Fproduction.tableup.com%2Floyalty-service%2Fuser%2Fsso%2Fauthorize&response_type=code&response_mode=query&client_id=07a928ae-677f-4921-85c2-691d33cbd09b&state=YtqHQEtkhjHAM6AgKXUbzokbLFrBXo3Y&nonce=mBrnIhOltfMJj5G1gpD5UbR1NdNdkX7W&scope=openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.3.2", "_blank"); };
   const[isOpen, setIsOpen] = useState(false);
   let lastScrollTop = useState(0);
   const toggleMenu = () => {
@@ -39,18 +42,18 @@ function Navbar() {
         id="navbarContainer"
       >
         <div id="nav1">
-          <img id="logo" src={Logo}></img>
-        </div>
-        <div className="hamburger" onClick={toggleMenu}>
-          &#9776;
-        </div>
-        <div id="nav2" className={isOpen ? "open" : ""}>
-          <h5>Rewards</h5>
-          <h5>Carryout</h5>
-          <h5>Menu</h5>
-          <h5>Gift Cards</h5>
-          
-        </div>
+  <img id="logo" src={Logo} alt="Logo" />
+</div>
+<div className="hamburger" onClick={toggleMenu}>
+  &#9776;
+</div>
+<div id="nav2" className={isOpen ? "open" : ""}>
+  <h5 onClick={handleRewardsClick}>Rewards</h5>
+  <h5 onClick={handleCarryClick}>Carryout</h5>
+  <h5 onClick={handleReserveClick}>Menu</h5>
+  <h5 onClick={handleGiftClick}>Gift Cards</h5>
+</div>
+
         <div id="nav3">
           <motion.button
             whileHover={{
@@ -61,7 +64,9 @@ function Navbar() {
               color: "#000",
             }}
             id="navButton"
-          >
+            onClick={handleReserveClick}
+          >     
+
             Reserve
           </motion.button>
         </div>

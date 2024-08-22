@@ -32,8 +32,11 @@ function Module1() {
             }}
             id="module1Text"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            "This must be the place"
+            <br></br>
+            Neighborhood Comfort food & Tap 
+            <br></br>
+            Family Owned & Operated
           </motion.h4>
           <motion.button
             initial={{ opacity: 0, y: 75 }} // initial state: opacity 0 and slightly lower
